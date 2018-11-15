@@ -738,8 +738,8 @@ pre code {
   margin-left: auto;
 }
 @media (min-width: 768px) {
-  .container {
-    width: 750px;
+  .navbar-nav {
+  
   }
 }
 @media (min-width: 992px) {

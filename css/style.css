@@ -27,6 +27,17 @@ body {
 .clear {
 	clear: both;
 }
+.agrupo{
+	 background-color: rgba(255,255,255,.50)
+}
+
+@media (min-width: 600px) and (max-width: 950px){
+	.agrupo{display: none;}
+
+
+}
+	
+}
 
 .estudio{
 	color: #6d6e72;}
@@ -339,6 +350,7 @@ section.section {
 /* --- section heading --- */
 .section-header {
 	text-align: center;
+
 }
 .section-header h2.section-heading {
 	text-transform: uppercase;
@@ -355,19 +367,20 @@ section.section {
 #parallax2{	
 	background-image: url(../img/parallax/img2.jpg);
 }
-#comotrabajamos{	
+#section-trabajo{	
 	background-image: url("../img/fondotestimonial.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-color: 
+
 }
 /*===========================
   --- Header & menu ----
 =========================== */
 .navbar {
-
-	
+	line-height: 100px;
+	height: 100px;
+	background-color: rgba(24, 101, 143, 0.7);
 	display: block;
 	vertical-align: middle;
 	text-align: center;
@@ -394,7 +407,7 @@ section.section {
 	vertical-align: middle;
 	color: #fff;
 	font-weight: 700;
-	font-size: 13px;
+	font-size: 16px;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 }
@@ -446,7 +459,6 @@ h1 a.navbar-brand {
 }
 
 
-
 /*===========================
   --- Featured section ----
 =========================== */
@@ -483,6 +495,24 @@ section.featured h2.slogan {
 	border:black 5px;
 
 }
+
+section.featured h3.subslogan{
+	background-color: rgba(255,255,255,.70);
+	 width:80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+@media only (min-width: 650px;) (max-width: 950px;)   {
+	section.featured h2.slogan{
+		display: block;
+
+}
+
+	
+}
+
   
  /* inner heading */
 section.featured.inner {
@@ -765,9 +795,9 @@ nav#filter a {
 /*===========================
   --- Testimonial ----
 =========================== */
-#comotrabajamos {
-	padding-top: 40px;
-	padding-bottom:40px;
+#section-trabajo{
+	padding-top: 70px;
+	padding-bottom:60px;
 	position:relative;
 
 	
@@ -983,7 +1013,7 @@ section#footer {
 	background: #327ca7;
 	margin: 0;
 	padding-top: -10%;
-	border: solid black;
+	
 	border-left: none;
 	border-right: none;
 
@@ -1217,6 +1247,7 @@ Media queries
 @media (min-width: 959px) and (max-width: 1199px) {
 	.navbar-nav {
 		margin-top: 20px;
+
 	}
 }
 
@@ -1236,11 +1267,9 @@ Media queries
 }
 @media (max-width: 767px) {
 
-	.navbar.navbar-fixed-top {
-		background-color:rgba(0,0,0,1);
-	}
+	
 	.navbar .navbar-collapse ul.nav {
-		background-color: #444;
+		background-color:rgba(24, 101, 143,1);
 		width: 100%;
 		float: none;
 		margin:0;
