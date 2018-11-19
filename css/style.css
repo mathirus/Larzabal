@@ -22,16 +22,18 @@ body {
 	line-height: 1.6em;
 	font-weight: 300;
 	text-shadow: none;
+	box-shadow: none;
+	margin-bottom: 1.2%;
 }
 
 .clear {
 	clear: both;
 }
 .agrupo{
-	 background-color: rgba(255,255,255,.50)
+	 background-color: rgba(255,255,255,.50);
 }
 
-@media (min-width: 600px) and (max-width: 950px){
+@media (min-width: 760px) and (max-width: 1200px){
 	.agrupo{display: none;}
 
 
@@ -368,10 +370,11 @@ section.section {
 	background-image: url(../img/parallax/img2.jpg);
 }
 #section-trabajo{	
-	background-image: url("../img/fondotestimonial.jpg");
+	background-image: url("../img/fondotestimonial2.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: top;
 
 }
 /*===========================
@@ -504,14 +507,19 @@ section.featured h3.subslogan{
     margin-right: auto;
 
 } 
-@media only (min-width: 650px;) (max-width: 950px;)   {
-	section.featured h2.slogan{
-		display: block;
+@media (min-width: 1198px)   {
+	.slogan{display:none;}
 
 }
 
+@media (min-width: 1px) and (max-width: 759px) {
+	.slogan{
+		display: none;
+	}
 	
 }
+
+
 
   
  /* inner heading */
@@ -1275,8 +1283,13 @@ Media queries
 	section.featured {
 		padding-top: 100px;
 	}
+
+	.nav>li>a{font-size: 13px;}
+
 }
 @media (max-width: 767px) {
+
+
 
 	
 	.navbar .navbar-collapse ul.nav {
@@ -1536,7 +1549,7 @@ form{color: black;}
 	text-decoration: none;
 	display: inline-block;
 	padding-right:  3%;
-	font-size:  26px;
+	font-size:  20px;
 	margin-top: 2%;
 }
 
