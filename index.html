@@ -10,16 +10,18 @@
   <!-- BASICS -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Estuio Contable Larzabal</title>
+  <title>Estudio Contable Larzabal</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
   <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-theme.css">
   <link rel="icon" href="img/logo2.jpg">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
   <!-- skin -->
@@ -30,9 +32,13 @@
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
   ======================================================= -->
+
+ <meta name="theme-color" content="#4285f4"/>
 </head>
 
 <body>
+
+
   <section id="header" class="appear"></section>
   <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(24, 101, 143, 0.7;) " data-300="line-height:60px; height:60px; background-color:rgba(24,101,143,0.9); ">
     <div class="container">
@@ -44,8 +50,8 @@
         <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px; " data-300="line-height:50px;  ">    <span class="agrupo"> <span class="estudio">Estudio</span>   <span class="contable">Contable</span> <span class="larzabal">Larzabal</span> </span>
           </a></h1>
         <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="fa fa-bars color-white"></span>
-					</button>
+            <span class="fa fa-bars color-white"></span>
+          </button>
         <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;"><span class="estudio">Estudio</span> <span class="contable">Contable</span> <span class="larzabal">LARZABAL</span></a></h1> -->
       </div>
       <div class="navbar-collapse collapse">
@@ -73,14 +79,14 @@
           <div class="align-center pad-bot40">
           <!--<div><img src="img/logo2.jpg"></div>  -->
             <h2 class="slogan"><span class="estudio">Estudio</span> <span class="contable">Contable</span> <span class="larzabal">LARZABAL</span></a></h2>
-            <h3 class="subslogan text-center">Al Dia en tus obligaciones </h3>
+            <h3 class="subslogan text-center">Al Día en tus obligaciones </h3>
             <br>
             <video class="video" src="img/fondo2.mp4" width="100%" autoplay="autoplay" controls="" ></video>
             <br><br><br>
           <div class="iconosbajan"> 
-          <a href="https://api.whatsapp.com/send?phone=5491151036034&text=Buenas, te escribo desde la pagina web, tengo una consulta:"><i class="fab fa-whatsapp iconwhats"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5491151036034&text=Buenas, te escribo desde la pagina web, tengo una consulta:" target="_blank"><i class="fab fa-whatsapp iconwhats"></i></a>
           <br>
-          <a href="mailto:hernan@tucontadorpublico.com.ar"><i class="far fa-envelope"></i></a>
+          <a href="mailto:hernan@tucontadorpublico.com.ar" target="_blank"><i class="far fa-envelope"></i></a>
           </div>
           </div>
         </div>
@@ -92,7 +98,7 @@
 
   <!-- spacer section:testimonial -->
   <section id="section-trabajo" class="section appear clearfix gallery section  bg-white" data-stellar-background-ratio="0.5">
-    <div class="container" id="comotrabajamos">
+    <div class="container" id="comotrabajamos"  >
    <div class="row">
         <div class="col-lg-12">
           <div class="align-center">
@@ -108,7 +114,7 @@
  
  <!-- services -->
   <section id="" class="">
-    <div class="container">
+    <div class="container " data-aos="zoom-in-up"   data-aos-duration="2000" >
 
       <div class="row mar-bot40 mar-top40">
         <div class="col-lg-4">
@@ -118,7 +124,7 @@
            <br>
             <h4 class="text-bold">Propuesta</h4>
 
-            <p class="parrafop">Te propone que atraves de un abono mensual tengas el servicio profesional que debes contar para desligarte de tus preocupaciones impositivas/contables y le dediques toda tu energia a tu negocio.</p>
+            <p class="parrafop">Te propone que através de un abono mensual tengas el servicio profesional que debes contar para desligarte de tus preocupaciones impositivas/contables y le dediques toda tu energia a tu negocio.</p>
           </div>
         </div>
 
@@ -150,23 +156,23 @@
   <!-- servicios -->
 
    
-   <div id="section-services" class="section appear clearfix gallery">
-      <div class="text-center pad-top40">
+   <div id="section-services" class="section appear clearfix gallery" >
+      <div class="text-center pad-top40" >
       <h2 class="mar-top40">Nuestros Principales Servicios</h2>
      </div>
 
     <div class="container pad-bot40">
-      <div class="col-md-4  serviciosfoto">
+      <div class="col-md-4  serviciosfoto" data-aos="flip-down"data-aos-duration="2000">
         <figure class="effect-marley ">
           <img src="img/impuestos.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>liquidacion de Impuestos</h4>
+            <h4>liquidación de Impuestos</h4>
             <p>IVA-IIBB-Ganancias-Impuestos Anuales</p>
           </figcaption>
         </figure>
       </div>
 
-      <div class="col-md-4 serviciosfoto">
+      <div class="col-md-4 serviciosfoto" data-aos="flip-down" data-aos-duration="2000">
         <figure class="effect-marley">
           <img src="img/sueldos.jpg" alt="" class="img-responsive" />
           <figcaption>
@@ -175,27 +181,27 @@
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 serviciosfoto">
+      <div class="col-md-4 serviciosfoto" data-aos="flip-down" data-aos-duration="2000">
         <figure class="effect-marley">
           <img src="img/estados.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>Confeccion de Estados Contables</h4>
+            <h4>Confección de Estados Contables</h4>
             <p>Armamos el balance y certificamos en CABA y BS AS.</p>
           </figcaption>
         </figure>
       </div>
     
        
-      <div class="col-md-4 serviciosfoto">
+      <div class="col-md-4 serviciosfoto"    data-aos="flip-up" data-aos-duration="2000" data-aos-delay="300" >
         <figure class="effect-marley">
           <img src="img/sociedad.jpg" alt="" class="img-responsive" />
           <figcaption>
-            <h4>Constitucion de Sociedad</h4>
+            <h4>Constitución de Sociedad</h4>
             <p>SAS, SRL, SA.</p>
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 serviciosfoto">
+      <div class="col-md-4 serviciosfoto"  data-aos="flip-up" data-aos-duration="2000" data-aos-delay="300">
         <figure class="effect-marley">
           <img src="img/planes1.jpg" alt="" class="img-responsive" />
           <figcaption>
@@ -204,7 +210,7 @@
           </figcaption>
         </figure>
       </div>
-      <div class="col-md-4 serviciosfoto">
+      <div class="col-md-4 serviciosfoto"  data-aos="flip-up" data-aos-duration="2000" data-aos-delay="300">
         <figure class="effect-marley">
           <img src="img/planes.jpg" alt="" class="img-responsive" />
           <figcaption>
@@ -504,31 +510,38 @@
       </div>
 
 
-      <div class="col-md-6">
-        <form>
+      <div class="col-md-6"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+        <form action="enviarmail.php" method="post" target="_blank">
   
   <div class="form-group">
     <label for="exampleFormControlInput1">Nombre</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" name="nombre" required>
   </div>
   
   <div class="form-group">
     <label for="exampleFormControlInput1">Email</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" >
+    <input type="email" class="form-control" id="exampleFormControlInput1" name="email" required>
   </div>
+  
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Telefono</label>
+    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="" name="telefono">
+  </div>
+  
+
 
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Describa su consulta</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="consulta"></textarea required>
   </div>
 
-    <button type="submit" class="btn btn-primary">Enviar consulta</button>
+    <button type="submit" class="btn btn-primary" value="enviarconsulta">Enviar consulta</button>
 </form>
 
       </div>
 
 
-       <div class="col-md-6 text-center">
+       <div class="col-md-6 text-center" data-aos="fade-left"   data-aos-duration="1000" data-aos-delay="100">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26260.639228351112!2d-58.522723!3d-34.640055!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc847a965bea5%3A0xaaf9879a1f280769!2sRamon+Falcon+6835%2C+C1408DSC+CABA!5e0!3m2!1ses-419!2sar!4v1542514796200" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
       <p>RAMON FALCON 6835 4ºB CABA - LINIERS</p>
@@ -629,6 +642,9 @@
 
    <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   <script src="js/jquery.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
@@ -643,6 +659,12 @@
   <script src="js/jquery.appear.js"></script>
   <script src="js/main.js"></script>
   <script src="contactform/contactform.js"></script>
+
+  <script>
+  AOS.init();
+ </script>
 </body>
+
+
 
 </html>
