@@ -17,13 +17,14 @@ $contenido = "Nombre: " .$nombre ."<br>correo: " . $email . "<br>telefono: " . $
 
 
 
-mail($destino,$asunto,$contenido);
+$enviarmail=mail($destino,$asunto,$contenido);
 
 
 
-if(mail($destino,$asunto,$contenido)){
-	echo "Gracias por su consulta ".$nombre." nos estaremos comunicando a la brevedad";}else{
-		echo "Hubo un error";	}
+
+if($enviarmail==true){
+echo "Gracias por su consulta ".$nombre." nos estaremos comunicando a la brevedad";}else{
+ echo "Hubo un error"; };
 
 
 
