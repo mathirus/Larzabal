@@ -7,7 +7,7 @@
 
 	
 <?php
-$destino= "hernan@tucontadorpublico.com.ar";
+
 $nombre = $_POST['nombre'];
 $telefono = $_POST['telefono'];
 $email = $_POST['email'];
@@ -17,7 +17,7 @@ $contenido = "Nombre: " .$nombre ."<br>correo: " . $email . "<br>telefono: " . $
 
 
 
-$enviarmail=mail($destino,$asunto,$contenido);
+$enviarmail=mail('mathirusln@hotmail.com',$asunto,$contenido);
 
 
 
