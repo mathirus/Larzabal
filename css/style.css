@@ -1584,3 +1584,37 @@ form{color: black;}
 .awhatsapp{color: green;}
 .atelefono{color: grey;}
 .amail{color: grey;}
+
+
+
+.social {
+	position: fixed; 
+	right: 3px; 
+	top: 200px; 
+	z-index: 2000; 
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+	}
+
+
+	.social ul li .icon-whatsapp {background:#25d366;}
+	
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px; 
+	}

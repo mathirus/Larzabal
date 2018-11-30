@@ -17,6 +17,16 @@ $contenido = "Nombre: " .$nombre ."<br>correo: " . $email . "<br>telefono: " . $
 
 
 
+echo $nombre;
+
+echo $telefono;
+
+echo $email;
+
+echo $consulta;
+
+
+
 $enviarmail=mail('mathirusln@hotmail.com',$asunto,$contenido);
 
 
